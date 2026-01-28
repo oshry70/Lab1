@@ -22,4 +22,4 @@ def test_divide_by_zero():
         divide(5, 0)
 
 def test_valid_mail():
-    assert is_valid_email('osghh.com')
+    assert is_valid_email('osg@hh.com')
