@@ -1,5 +1,5 @@
 import pytest
-from services.calculator_service import add, subtract, multiply, divide
+from services.calculator_service import add, subtract, multiply, divide, is_valid_email
 
 
 def test_add():
@@ -20,3 +20,6 @@ def test_divide():
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         divide(5, 0)
+
+def test_valid_mail():
+    assert is_valid_email('os@ghh.com')
