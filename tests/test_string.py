@@ -12,4 +12,4 @@ def test_is_empty():
     assert is_empty(" ")
 
 def test_has_min_length():
-    assert has_min_length('helo',3)
+    assert has_min_length('helo',10)
