@@ -1,5 +1,5 @@
 import pytest
-from services.calculator_service import add, subtract, multiply, divide, is_valid_email
+from services.calculator_service import add, subtract, multiply, divide
 
 
 def test_add():
