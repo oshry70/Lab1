@@ -1,5 +1,5 @@
 # Python CI – Stage 2 (Automated)
-
+[![Python CI](https://github.com/oshry70/Lab1/actions/workflows/python-ci.yaml/badge.svg)](https://github.com/oshry70/Lab1/actions/workflows/python-ci.yaml)
 ## Overview
 This repository demonstrates **automated Continuous Integration (CI)** using **GitHub Actions**.  
 You will learn how to fork, clone, set up a virtual environment, run tests, and see how automated CI ensures code quality before merging changes.
