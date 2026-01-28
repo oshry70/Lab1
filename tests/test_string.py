@@ -13,3 +13,12 @@ def test_is_empty():
 
 def test_has_min_length():
     assert has_min_length('helo',3)
+
+@pytest.mark.parametrize("email, expected", [
+    ("test@example.com", True),
+    ("bad-email", False),
+    ("user@domain", False),
+    ("hello@world.com", True),
+])
+def test_is_valid_email(email, expected):
+    assert is_valid_email(email) == expected
